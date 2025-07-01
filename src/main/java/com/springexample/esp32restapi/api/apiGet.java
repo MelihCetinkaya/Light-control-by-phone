@@ -17,7 +17,7 @@ public class apiGet {
     @GetMapping("/toggle")
     public String toggleLamp() {
 
-        String esp32Url = "http://192.168.109.57:8086/toggle";
+        String esp32Url = "http://192.168.52.57:8086/toggle";
 
 
         RestTemplate restTemplate = new RestTemplate();
